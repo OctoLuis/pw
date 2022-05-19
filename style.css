@@ -13,14 +13,38 @@
   z-index: -1;
 }
 
+.content{
+  width: 68%;
+}
+
 .stk {
   position: fixed;
   display: block;
 }
 
-div#offs{
+div#offs {
   position: relative;
   background-color: white;
+  z-index: 2;
+}
+
+div.sk {
+  position: absolute;
+  bottom: 200px;
+  left: 40px;
+  right: 0;
+  top: 0;
+  background-color: red;
+}
+
+div.sk div {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  bottom: 200px;
+  left: 40px;
+  right: 0;
+  top: 0;
   z-index: 2;
 }
 
@@ -43,7 +67,7 @@ div#offs{
 
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 44px;
   width: 100%;
 }
 
@@ -124,5 +148,6 @@ header {height: 100vh; position: relative;}
 }
 
 p {
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
