@@ -1,6 +1,11 @@
 :root { font-size: 16px }
 @media (max-width: 500px) { :root { font-size: 14px } }
 
+/*body, body * {
+  cursor: none;
+
+}*/
+
 * {
   margin: 0;
   padding: 0;
@@ -13,13 +18,13 @@
   z-index: -1;
 }
 
-.content{
-  width: 68%;
+.fx {
+  position: fixed;
+  z-index: 0;
 }
 
-.stk {
-  position: fixed;
-  display: block;
+.content{
+  width: 68%;
 }
 
 div#offs {
@@ -33,8 +38,19 @@ div.sk {
   bottom: 200px;
   left: 40px;
   right: 0;
-  top: 0;
-  background-color: red;
+  top: 55px;
+  background-color: rgba(255,0,0,0.9);
+}
+
+div.skt {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  bottom: 200px;
+  left: 40px;
+  right: 0;
+  top: 55px;
+  z-index: 4;
 }
 
 div.sk div {
@@ -85,7 +101,6 @@ h3 { margin-right: 40px; }
 img {
   width: 100%;
   height: auto;
-  background: #f0f0f0;
 }
 
 ul {
@@ -136,6 +151,31 @@ header {height: 100vh; position: relative;}
   padding-bottom: 1rem;
 } */
 
+div.nav {
+  position: fixed; 
+  right: 10px; 
+  top: 10px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+  margin: 8px; 
+  border-color: black; 
+  border-style: solid; 
+  border-width: 4px; 
+  z-index: 10;
+}
+
+div.navl {
+  display: none;
+}
+
+div.navl:hover {
+  display: block;
+}
+
+div.nav:hover + div.navl {
+  display: block;
+}
+
 .lk:hover {
   color: black;
 }
@@ -147,7 +187,24 @@ header {height: 100vh; position: relative;}
   font-weight: 900;
 }
 
+.cursor {
+  position: fixed;
+  background: red;
+  opacity: 0.6;
+  width: 30px;
+  height: 30px;
+  margin: -15px;
+  border-radius: 50%;
+  will-change: transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  z-index: 30;
+}
+
 p {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

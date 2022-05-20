@@ -21,3 +21,32 @@ const showDemo = () => {
 };
 
 imagesLoaded(images).on('always', showDemo);
+
+document.body.addEventListener("mousemove", evt => {
+  const mouseX = evt.clientX;
+  const mouseY = evt.clientY;
+
+  gsap.set(".cursor", {
+    x: mouseX,
+    y: mouseY });
+
+  gsap.to(".shape", {
+    x: mouseX,
+    y: mouseY,
+    stagger: -0.1 });
+
+});
+
+const isHover = e => e.parentElement.querySelector(':hover') === e;    
+
+const redArea = document.getElementById('ska');
+const myCursor = document.getElementById('csr')
+document.addEventListener('mousemove', function checkHover() {
+  const hoveredRed = isHover(redArea);
+  if (hoveredRed === true) {
+    myCursor.style.background = 'white'
+  } else {
+    myCursor.style.background = 'red'
+  }
+
+});

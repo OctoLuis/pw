@@ -9,17 +9,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="rp cvr" style="position: fixed; right: 40px; bottom: 40px; padding: 20px; margin: 8px; border-color: black; border-style: solid; border-width: 4px; z-index: 10;">
-      <h2 class='ti'>info</h2>
-      <h2>résumé</h2>
-      <h2>skills</h2>
-      <h2>projects</h2>
-      <h2>contact+</h2>
+  <div class="cursor" id="csr"></div>
+  <div class="rp cvr nav">
+      <h2 class='mn ti'>menu</h2>
+  </div>
+  <div class="rp cvr nav navl">
+    <h2 class='mn ti'>menu</h2>
+    <h2 class='ti'>info</h2>
+    <h2>skills</h2>
+    <h2>projects</h2>
+    <h2>contact+</h2>
+    <h2>résumé</h2>
   </div>
 <!-- partial:index.partial.html -->
 <div class='demo-wrapper'>
   <header class='df aic jcc' id="start">
-    <div class="stk">
+    <div class="fx content">
       <h1>why my heart beats faster</h1>
       <h2>PORTFOLIO</h2>
     </div>
@@ -40,38 +45,39 @@
     </div>
     </header>
 
+<!-- style='background-color: black; color:black; opacity: 0.5;' -->
+
     <header>
-      <div class="sk df aic jcc">
-        <div class="df aic jcc">Hi! Hello There are some texts</div>
-      </div>
+      <div class="sk df aic jcc"></div>
+      <div class="skt df aic jcc" id="ska">Hi! Hello There are some texts</div>
       <section class='demo-text'>
-      <div class='wrapper text' id='g'>
+      <div class='wrapper text' id='g' style="background-color: rgba(0, 0, 0, 1);">
         Skills
       </div>
-    </section>
+    `</section>
     <section class='demo-text'>
       <div class='wrapper text'>
-        Takoyaki Uma!
+        Full&nbsp;Stack&nbsp;Web&nbsp;Development
       </div>
     </section>
     <section class='demo-text'>
       <div class='wrapper text'>
-        Takoyaki Uma!
+        Software&nbsp;Engineering
       </div>
     </section>
     <section class='demo-text'>
       <div class='wrapper text'>
-        Takoyaki Uma!
+        Embedded&nbsp;Systems
       </div>
     </section>
     <section class='demo-text'>
       <div class='wrapper text'>
-        Takoyaki Uma!
+       Game&nbsp;Design
       </div>
     </section>
     <section class='demo-text'>
       <div class='wrapper text'>
-        Takoyaki Uma!
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data&nbsp;Analysis
       </div>
     </section>
     </header>
@@ -95,16 +101,18 @@
       <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
     </div>
     <footer class='df aic jcc'>
-      <p>code <a class="lk" href="https://github.com/">github</a></p>
-      <p>contact <a class="lk" href="https://github.com/">email</a></p>
-      <p>about me <a class="lk" href="https://github.com/">info</a></p>
-      <p>networking <a class="lk" href="https://github.com/">linkedin</a></p>
+      <p>contact&nbsp;<a class="lk" href="https://github.com/">email</a></p>
+      <p>about&nbsp;me&nbsp;<a class="lk" href="https://github.com/">info</a></p>
+      <p>code&nbsp;<a class="lk" href="https://github.com/">github</a></p>
+      <p>networking&nbsp;<a class="lk" href="https://github.com/">linkedin</a></p>
     </footer>
     </header>    
   </div>
 </div>
 <!-- partial -->
-  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<!-- <script src="jquery-3.6.0.min.js"></script> -->
+<!-- <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script> -->
+<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script><script  src="./script.js"></script>
 
