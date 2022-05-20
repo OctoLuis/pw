@@ -152,9 +152,9 @@ header {height: 100vh; position: relative;}
 } */
 
 div.nav {
-  position: fixed; 
-  right: 10px; 
-  top: 10px; 
+  position: fixed;
+  right: 12px; 
+  top: 12px; 
   padding-left: 20px; 
   padding-right: 20px; 
   margin: 8px; 
