@@ -158,9 +158,9 @@ div.nav:hover + div.navl {
   position: fixed;
   background: red;
   opacity: 0.5;
-  width: 10px;
-  height: 10px;
-  margin: -5px;
+  width: 12px;
+  height: 12px;
+  margin: -6px;
   border-radius: 50%;
   will-change: transform;
   -webkit-user-select: none;
@@ -181,18 +181,17 @@ div.nav:hover + div.navl {
     left: 25px; 
     right: 25px; 
   }
+  /*.cursor {
+    width: 6px;
+    height: 6px;
+    margin: -3px;
+  }*/
   h1 { font-size: 2.6rem }
   h2 { font-size: 1.2rem }
   h3 { font-size: 1rem }
   
   footer {
     bottom: 28px;
-  }
-
-  .cursor {
-    width: 6px;
-    height: 6px;
-    margin: -3px;
   }
 
   div.sk {
