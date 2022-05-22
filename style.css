@@ -251,8 +251,8 @@ div.nav:hover + div.navl {
   .lknav {
     right: 12px; 
     bottom: 12px; 
-    padding-left: 10px; 
-    padding-right: 10px;
+    padding-left: 15px; 
+    padding-right: 15px;
     border-width: 3px; 
   }
 
