@@ -154,6 +154,23 @@ div.nav:hover + div.navl {
   display: block;
 }
 
+.cursor {
+  position: fixed;
+  background: red;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  margin: -5px;
+  border-radius: 50%;
+  will-change: transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  z-index: 30;
+}
+
 
 @media (max-width: 1200px) {
   .content { width: 84%; }
@@ -167,6 +184,12 @@ div.nav:hover + div.navl {
   h1 { font-size: 3rem }
   h2 { font-size: 1.5rem }
   h3 { font-size: 1rem }
+
+  .cursor {
+  width: 6px;
+  height: 6px;
+  margin: -3px;
+}
 
   div.sk {
   left: 25px;
@@ -246,23 +269,6 @@ header {height: 100vh; position: relative;}
 
 .lk:hover {
   color: black;
-}
-
-.cursor {
-  position: fixed;
-  background: red;
-  opacity: 0.5;
-  width: 10px;
-  height: 10px;
-  margin: -5px;
-  border-radius: 50%;
-  will-change: transform;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  pointer-events: none;
-  z-index: 30;
 }
 
 /*@media ()*/
