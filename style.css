@@ -208,15 +208,16 @@ div.nav:hover + div.navl {
   }
 
   div.nav {
-      right: 4px; 
-      top: 4px; 
-      padding-left: 10px; 
-    padding-right: 10px; 
+    right: 4px; 
+    top: 4px; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-width: 2px;  
   }
 
   .demo-text .text {
     font-size: clamp(3rem, 12vw, 5rem);
-    font-weight: 400;
+    font-weight: 100;
   }
 
 } 
