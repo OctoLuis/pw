@@ -125,7 +125,7 @@ div.sk div {
   font-size: clamp(5rem, 12vw, 6rem);
   font-style: italic;
   line-height: 1.1;
-  font-weight: 900;
+  font-weight: 100;
 }
 
 
@@ -172,7 +172,7 @@ div.nav:hover + div.navl {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .content { width: 84%; }
   .subtitle { font-size: 2rem; }
   .sarea {
@@ -184,12 +184,16 @@ div.nav:hover + div.navl {
   h1 { font-size: 3rem }
   h2 { font-size: 1.2rem }
   h3 { font-size: 1rem }
+  
+  footer {
+    bottom: 28px;
+  }
 
   .cursor {
-  width: 6px;
-  height: 6px;
-  margin: -3px;
-}
+    width: 6px;
+    height: 6px;
+    margin: -3px;
+  }
 
   div.sk {
   left: 25px;
