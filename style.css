@@ -1,9 +1,8 @@
-:root { font-size: 16px }
-@media (max-width: 500px) { :root { font-size: 14px } }
+/*:root { font-size: 16px }
+@media (max-width: 1200px) { :root { font-size: 12px } }*/
 
 body, body * {
   cursor: none;
-
 }
 
 * {
@@ -25,43 +24,6 @@ body, body * {
 
 .content{
   width: 68%;
-}
-
-div#offs {
-  position: relative;
-  background-color: white;
-  z-index: 2;
-}
-
-div.sk {
-  position: absolute;
-  bottom: 200px;
-  left: 40px;
-  right: 0;
-  top: 55px;
-  background-color: rgba(255,0,0,0.9);
-}
-
-div.skt {
-  position: absolute;
-  color: white;
-  font-size: 2rem;
-  bottom: 200px;
-  left: 40px;
-  right: 0;
-  top: 55px;
-  z-index: 4;
-}
-
-div.sk div {
-  position: absolute;
-  color: white;
-  font-size: 2rem;
-  bottom: 200px;
-  left: 40px;
-  right: 0;
-  top: 0;
-  z-index: 2;
 }
 
 .nul {
@@ -110,6 +72,124 @@ h1 { font-size: 5rem }
 h2 { font-size: 2rem; color: #DB0600 }
 h2.ti { color: black; }
 h3 { margin-right: 40px; }
+.subtitle {
+  color:white; font-style: italic; 
+  font-size:3rem; position: absolute; 
+  top: 10px; left: 50px; z-index: 3;
+}
+.sarea {
+  font-size: 2rem; position: absolute; 
+  top: 40px; bottom: 40px; left: 40px; 
+  right: 40px; background-color: black;
+}
+
+
+div#offs {
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+
+div.sk {
+  position: absolute;
+  bottom: 200px;
+  left: 40px;
+  right: 0;
+  top: 55px;
+  background-color: rgba(255,0,0,0.9);
+}
+
+div.skt {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  bottom: 200px;
+  left: 40px;
+  right: 0;
+  top: 55px;
+  z-index: 4;
+}
+
+div.sk div {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  bottom: 200px;
+  left: 40px;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.demo-text .text {
+  font-size: clamp(5rem, 12vw, 6rem);
+  font-style: italic;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+
+div.nav {
+  position: fixed;
+  right: 12px; 
+  top: 12px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+  margin: 8px; 
+  border-color: black; 
+  border-style: solid; 
+  border-width: 4px; 
+  z-index: 10;
+}
+
+div.navl {
+  display: none;
+}
+
+div.navl:hover {
+  display: block;
+}
+
+div.nav:hover + div.navl {
+  display: block;
+}
+
+
+@media (max-width: 1200px) {
+  .content { width: 84%; }
+  .subtitle { font-size: 2rem; }
+  .sarea {
+    top: 25px; 
+    bottom: 25px; 
+    left: 25px; 
+    right: 25px; 
+  }
+  h1 { font-size: 3rem }
+  h2 { font-size: 1.5rem }
+  h3 { font-size: 1rem }
+
+  div.sk {
+  left: 25px;
+  right: 0;
+  top: 35px;
+  background-color: rgba(255,0,0,0.9);
+  }
+
+  #ska {
+    font-size: 1.5rem;
+  }
+
+  div.nav {
+      right: 8px; 
+      top: 8px; 
+  }
+
+  .demo-text .text {
+    font-size: clamp(3rem, 12vw, 5rem);
+    font-weight: 400;
+  }
+
+} 
 
 img {
   width: 100%;
@@ -164,40 +244,8 @@ header {height: 100vh; position: relative;}
   padding-bottom: 1rem;
 } */
 
-div.nav {
-  position: fixed;
-  right: 12px; 
-  top: 12px; 
-  padding-left: 20px; 
-  padding-right: 20px; 
-  margin: 8px; 
-  border-color: black; 
-  border-style: solid; 
-  border-width: 4px; 
-  z-index: 10;
-}
-
-div.navl {
-  display: none;
-}
-
-div.navl:hover {
-  display: block;
-}
-
-div.nav:hover + div.navl {
-  display: block;
-}
-
 .lk:hover {
   color: black;
-}
-
-.demo-text .text {
-  font-size: clamp(5rem, 12vw, 6rem);
-  font-style: italic;
-  line-height: 1.1;
-  font-weight: 900;
 }
 
 .cursor {
