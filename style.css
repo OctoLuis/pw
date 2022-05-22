@@ -1,10 +1,10 @@
 :root { font-size: 16px }
 @media (max-width: 500px) { :root { font-size: 14px } }
 
-/*body, body * {
+body, body * {
   cursor: none;
 
-}*/
+}
 
 * {
   margin: 0;
@@ -64,10 +64,23 @@ div.sk div {
   z-index: 2;
 }
 
+.nul {
+  text-decoration: none;
+}
+
+.nul:hover h2 {
+  color: blue;
+}
+
 .cvr {background-color: white; position: relative; z-index: 2;}
 
-#intro {
+#pg-show {
   background-color: blue;
+  color: white;
+}
+
+::-webkit-selection {
+  background: red;
   color: white;
 }
 
@@ -190,10 +203,10 @@ div.nav:hover + div.navl {
 .cursor {
   position: fixed;
   background: red;
-  opacity: 0.6;
-  width: 30px;
-  height: 30px;
-  margin: -15px;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  margin: -5px;
   border-radius: 50%;
   will-change: transform;
   -webkit-user-select: none;
