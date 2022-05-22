@@ -206,7 +206,7 @@ div.nav:hover + div.navl {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 550px) {
   .content { width: 74%; }
   .subtitle { font-size: 2rem; }
   .sarea {
