@@ -183,7 +183,7 @@ div.nav:hover + div.navl {
   }
   h1 { font-size: 3rem }
   h2 { font-size: 1.2rem }
-  h3 { font-size: 1rem }
+  h3 { font-size: 0.9rem }
   
   footer {
     bottom: 28px;
@@ -212,7 +212,7 @@ div.nav:hover + div.navl {
     top: 4px; 
     padding-left: 10px; 
     padding-right: 10px;
-    border-width: 2px;  
+    border-width: 3px;  
   }
 
   .demo-text .text {
