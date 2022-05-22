@@ -216,7 +216,7 @@ div.nav:hover + div.navl {
   }
 
   .demo-text .text {
-    font-size: clamp(1rem, 10vw, 3rem);
+    font-size: clamp(3rem, 3rem, 3rem);
     font-weight: 100;
   }
 
