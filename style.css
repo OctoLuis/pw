@@ -206,6 +206,8 @@ div.nav:hover + div.navl {
   div.nav {
       right: 4px; 
       top: 4px; 
+      padding-left: 10px; 
+    padding-right: 10px; 
   }
 
   .demo-text .text {
