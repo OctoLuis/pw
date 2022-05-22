@@ -172,7 +172,7 @@ div.nav:hover + div.navl {
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 800px) {
   .content { width: 74%; }
   .subtitle { font-size: 2rem; }
   .sarea {
@@ -181,9 +181,9 @@ div.nav:hover + div.navl {
     left: 25px; 
     right: 25px; 
   }
-  h1 { font-size: 3rem }
+  h1 { font-size: 2.6rem }
   h2 { font-size: 1.2rem }
-  h3 { font-size: 0.9rem }
+  h3 { font-size: 1rem }
   
   footer {
     bottom: 28px;
