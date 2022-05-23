@@ -96,7 +96,7 @@ div.sk {
   height: 75%;
   left: 40px;
   right: 0;
-  top: 55px;
+  top: 65px;
   background-color: rgba(255,0,0,0.9);
 }
 
@@ -118,8 +118,8 @@ div.skt {
   height: 75%;
   left: 40px;
   right: 0;
-  top: 55px;
-  z-index: 1;
+  top: 65px;
+  z-index: 0;
 }
 
 div.sk div {
@@ -304,7 +304,7 @@ div.nav:hover + div.navl {
   div.sk {
   left: 25px;
   right: 0;
-  top: 20px;
+  top: 35px;
   height: 75%;
   background-color: rgba(255,0,0,0.9);
   }
