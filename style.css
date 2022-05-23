@@ -46,6 +46,8 @@ body, body * {
   opacity: 1;
 }
 
+
+
 ::-webkit-selection {
   background: red;
   color: white;
@@ -117,6 +119,10 @@ div.sk {
 
 @media screen and (max-width: 1024px){
   .img-bg {
+    background-attachment: scroll;
+  }
+
+  #pg-show {
     background-attachment: scroll;
   }
 }
