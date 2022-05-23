@@ -206,7 +206,7 @@ div.nav:hover + div.navl {
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .content { width: 74%; }
   .subtitle { font-size: 2rem; }
   .sarea {
@@ -258,6 +258,67 @@ div.nav:hover + div.navl {
     padding-left: 15px; 
     padding-right: 15px;
     border-width: 3px; 
+  }
+
+  .demo-text .text {
+    font-size: clamp(3rem, 3rem, 3rem);
+    font-weight: 100;
+  }
+
+} 
+
+@media (min-width: 801px) and (max-width: 1100px) {
+  .content { width: 74%; }
+  .subtitle { font-size: 2.4rem; }
+  .sarea {
+    top: 25px; 
+    bottom: 25px; 
+    left: 25px; 
+    right: 25px; 
+  }
+  /*.cursor {
+    width: 6px;
+    height: 6px;
+    margin: -3px;
+  }*/
+  h1 { font-size: 2.6rem }
+  h2 { font-size: 1.4rem }
+  h3 { font-size: 1.1rem }
+  
+  footer {
+    bottom: 14px;
+  }
+
+  div.sk {
+  left: 25px;
+  right: 0;
+  top: 30px;
+  height: 75%;
+  background-color: rgba(255,0,0,0.9);
+  }
+
+  #ska {
+    font-size: 1.4rem;
+    left: 25px;
+    right: 0;
+    top: 35px;
+    height: 75%;
+  }
+
+  div.nav {
+    right: 4px; 
+    top: 4px; 
+    padding-left: 12px; 
+    padding-right: 12px;
+    border-width: 4px;  
+  }
+
+  .lknav {
+    right: 12px; 
+    bottom: 12px; 
+    padding-left: 17px; 
+    padding-right: 17px;
+    border-width: 4px; 
   }
 
   .demo-text .text {
