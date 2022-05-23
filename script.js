@@ -44,49 +44,20 @@ const cliclable4 = document.getElementById('cla-4');
 const clickables = document.getElementsByClassName('cla');
 
 console.log(clickables)
-// document.addEventListener('mousemove', function checkHover() {
-//   const hoveredRed = isHover(redArea);
-//   if (hoveredRed === true) {
-//     myCursor.style.background = 'white'
-//   } else {
-//     myCursor.style.background = 'red'
-//   }
-
-// });
 
 const isHover2 = ee => ee.parentElement.querySelector(':hover') === ee; 
 
 document.addEventListener('mousemove', function checkHover2() {
-  // todo: use loop etc. make this better readable and coherent in logic
-  // const hoveredClickable1 = isHover2(cliclable1);
-  // const hoveredClickable2 = isHover2(cliclable2);
-  // const hoveredClickable3 = isHover2(cliclable3);
-  // const hoveredClickable4 = isHover2(cliclable4);
+  
   const hoveredRed = isHover(redArea);
 
-  // if (hoveredClickable1 === true || hoveredClickable2 === true || hoveredClickable3 === true || hoveredClickable4 === true) {
-  //   myCursor.style.width = "32px"
-  //   myCursor.style.height = "32px"
-  //   myCursor.style.margin = "-16px" 
-  //   myCursor.style.opacity = "0.5" 
-  // } else if (hoveredClickable1 === false && hoveredClickable2 === false && hoveredClickable3 === false && hoveredClickable4 === false) {
-  //   myCursor.style.width = "16px"
-  //   myCursor.style.height = "16px"
-  //   myCursor.style.margin = "-8px"
-  //   myCursor.style.opacity = "0.8" 
-  // }
-
-  // if (hoveredRed === true) {
-  //   myCursor.style.background = 'white'
-  // } else if (hoveredRed === false) {
-  //   myCursor.style.background = 'red'
-  // }
   var enlarge = false
   for (let i=0; i<clickables.length; i++) {
     const hoveredcla = isHover2(clickables[i]);
     console.log(hoveredcla);
     if (hoveredcla) {
       enlarge = true
+      break
     }
   }
 

@@ -1,5 +1,6 @@
 /*:root { font-size: 16px }
 @media (max-width: 1200px) { :root { font-size: 12px } }*/
+$blurred-img:"https://lh3.googleusercontent.com/-m8TxQMObg6c/U474EWu7Y9I/AAAAAAAAI2k/xkRGoIEC1iU/s1600/blur.jpg";
 
 body, body * {
   cursor: none;
@@ -99,6 +100,17 @@ div.sk {
   background-color: rgba(255,0,0,0.9);
 }
 
+.img-bg {
+  background-image: url("https://images.unsplash.com/photo-1652596760107-72a978536adb?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2170");
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
 div.skt {
   position: absolute;
   color: white;
@@ -107,7 +119,7 @@ div.skt {
   left: 40px;
   right: 0;
   top: 55px;
-  z-index: 4;
+  z-index: 1;
 }
 
 div.sk div {
@@ -292,7 +304,7 @@ div.nav:hover + div.navl {
   div.sk {
   left: 25px;
   right: 0;
-  top: 30px;
+  top: 20px;
   height: 75%;
   background-color: rgba(255,0,0,0.9);
   }
