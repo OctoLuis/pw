@@ -220,7 +220,7 @@ div.nav:hover + div.navl {
     height: 6px;
     margin: -3px;
   }*/
-  h1 { font-size: 2.6rem }
+  h1 { font-size: 2.4rem }
   h2 { font-size: 1.2rem }
   h3 { font-size: 1rem }
   
@@ -237,7 +237,11 @@ div.nav:hover + div.navl {
   }
 
   #ska {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    left: 25px;
+    right: 0;
+    top: 35px;
+    height: 75%;
   }
 
   div.nav {
