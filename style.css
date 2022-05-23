@@ -85,9 +85,12 @@ h3 { margin-right: 40px; }
   top: 10px; left: 50px; z-index: 3;
 }
 .sarea {
-  font-size: 2rem; position: absolute; 
-  top: 40px; bottom: 40px; left: 40px; 
-  right: 40px; background-color: black;
+  font-size: 2rem; 
+  position: absolute; 
+  top: 40px; 
+  bottom: 40px; 
+  width: 92%;
+  background-color: black;
 }
 
 
@@ -154,6 +157,7 @@ div.sk div {
   font-style: italic;
   line-height: 1.1;
   font-weight: 100;
+  color: white;
 }
 
 
@@ -240,8 +244,6 @@ div.nav:hover + div.navl {
   .sarea {
     top: 25px; 
     bottom: 25px; 
-    left: 25px; 
-    right: 25px; 
   }
   /*.cursor {
     width: 6px;
@@ -301,14 +303,8 @@ div.nav:hover + div.navl {
   .sarea {
     top: 25px; 
     bottom: 25px; 
-    left: 25px; 
-    right: 25px; 
   }
-  /*.cursor {
-    width: 6px;
-    height: 6px;
-    margin: -3px;
-  }*/
+
   h1 { font-size: 2.6rem }
   h2 { font-size: 1.4rem }
   h3 { font-size: 1.1rem }
