@@ -101,7 +101,7 @@ div.sk {
 }
 
 .img-bg {
-  background-image: url("https://images.unsplash.com/photo-1652596760107-72a978536adb?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2170");
+  background-image: url("https://images.unsplash.com/photo-1621352431870-ddefa81aea26?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2944");
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,6 +109,12 @@ div.sk {
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.8;
+}
+
+@media screen and (max-device-width: 1024px){
+  .img-bg {
+  background-attachment: scroll;
+  }
 }
 
 div.skt {
