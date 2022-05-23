@@ -75,8 +75,8 @@ body {
   font-family: 'Prata', serif;
 }
 
-h1 { font-size: 5rem }
-h2 { font-size: 2rem; color: #DB0600 }
+h1 { font-size: 3.6rem }
+h2 { font-size: 1.8rem; color: #DB0600 }
 h2.ti { color: black; }
 h3 { margin-right: 40px; }
 .subtitle {
@@ -117,7 +117,7 @@ div.sk {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-device-width: 1024px){
   .img-bg {
     background-attachment: scroll;
   }
@@ -150,7 +150,7 @@ div.sk div {
 }
 
 .demo-text .text {
-  font-size: clamp(5rem, 12vw, 6rem);
+  font-size: clamp(4.8rem, 4.8rem, 4.8rem);
   font-style: italic;
   line-height: 1.1;
   font-weight: 100;
