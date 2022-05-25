@@ -26,11 +26,6 @@ document.body.addEventListener("mousemove", e => {
     x: mouseX,
     y: mouseY });
 
-  gsap.to(".shape", {
-    x: mouseX,
-    y: mouseY,
-    stagger: -0.1 });
-
 });
 
 const isHover = e => e.parentElement.querySelector(':hover') === e;    
@@ -54,7 +49,7 @@ document.addEventListener('mousemove', function checkHover2() {
   var enlarge = false
   for (let i=0; i<clickables.length; i++) {
     const hoveredcla = isHover2(clickables[i]);
-    console.log(hoveredcla);
+    // console.log(hoveredcla);
     if (hoveredcla) {
       enlarge = true
       break
